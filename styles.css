@@ -1,0 +1,345 @@
+* {box-sizing:border-box}
+body
+{
+
+    margin: 0px;
+font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+h2
+{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+}
+
+.outerContainer
+{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(120, 120, 120);
+    display: flex;
+    justify-content: center;
+
+}
+
+.innnerContainer
+{
+    width: 60%;
+    height: 150vh;
+    display: flex; 
+    
+}
+
+
+.left-white 
+{
+    width: 5%;
+    background-color: white;
+    
+}
+
+.center-black
+{
+    width: 30%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.center1
+{
+width: 100%;
+height: 35vh; 
+
+}
+.center2
+{
+width: 100%;
+height: 15vh; 
+
+text-align: center;
+
+}
+.center2 p
+{
+    margin: 10px;
+}
+.center3
+{
+width: 100%;
+height: 22vh; 
+/* border: 2px solid red;  */
+text-align: center;
+margin-top: 10px;
+
+}
+.center3 div 
+{
+    margin-bottom: 12px;
+}
+.center4
+{
+width: 100%;
+height: 25vh; 
+/* border: 2px solid red;  */
+text-align: center;
+
+}
+.center4 h2 , .center5 h2
+{
+    border: 2px solid #2196f3;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    font-weight: 500;
+    
+}
+.center4 ul 
+{
+    text-align: left;
+}
+.center4 ul li 
+{
+    margin-top: 20px;
+}
+.center5
+{
+width: 100%;
+height: 25vh; 
+/* border: 2px solid red;  */
+text-align: center;
+
+}
+
+
+.center5 ul 
+{
+text-align: left;
+    
+}
+.center5 ul li 
+
+{
+    margin-top: 20px;
+}
+
+.center6{
+
+    width: 100%;
+height: 25vh;
+/* border: 2px solid red;  */
+
+}
+
+
+.right-white
+{
+    width: 65% ;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.right1
+{
+    width: 100%;
+height: 35vh; 
+/* border: 2px solid red; */
+text-align: left;
+
+}
+
+.right2
+{
+    width: 90%;
+    height: 63vh; 
+    /* border: 2px solid red; */
+    margin-left: 30px;
+}
+
+
+.jobsContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85%
+}
+
+#experienceHeader
+{
+    width: 35%;
+    border-radius: 20px;
+   
+    background-color: #043382;
+    text-align: center;
+    color: white;
+    
+}
+#experienceHeader h2
+{
+    font-weight: 400;
+    padding: 8px;
+}
+
+.job1 h2 , .job2 h2 , .job3 h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.right3
+{
+    width: 90%;
+    margin-left: 30px;
+    height: 30vh; 
+    /* border: 2px solid rgb(15, 17, 126); */
+    
+}
+
+#educationeHeader
+{
+    width: 35%;
+    border-radius: 20px;
+   
+    background-color: #043382;
+    text-align: center;
+    color: white;
+    
+}
+#educationeHeader h2
+{
+    font-weight: 400;
+    padding: 8px;
+}
+
+.education01 h2 , p 
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.education02 p
+
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.education02 h2
+{
+    margin-bottom: 0px;
+}
+
+.right4
+{
+    width: 90%;
+    margin-left: 30px;
+    height: 25vh; 
+    /* border: 2px solid red; */
+}
+
+#skillsHeader
+{
+    width: 35%;
+    border-radius: 20px;
+   
+    background-color: #043382;
+    text-align: center;
+    color: white;
+    
+}
+#skillsHeader h2
+{
+    font-weight: 400;
+    padding: 8px;
+}
+
+.skillContainer
+{
+    width: 50%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+    font-size: 12px; 
+}
+
+.JavaScript
+{
+    width: 78%; background-color:
+    #2196f3;
+}
+
+.react
+{
+    width: 81%; 
+    background-color:
+    #2196f3;
+}
+
+.hero
+{
+    position: absolute;
+    width: 60%;
+    height: 20vh;
+    background-color: #043382;
+    top: 10%;
+    left: 20%;
+}
+.profilePhoto
+{
+width: 250px;
+height: 190px;
+border-radius: 50%;
+position: relative;
+top: -40px;
+left: 70px;
+box-shadow: #021a44;
+}
+.profilePhoto img 
+{
+    width: 230px;
+height: 230px;
+border-radius: 50%;
+border: 4px solid #043382;
+box-shadow: #021a44;
+}
+.firstName
+{
+    position: absolute;
+    top: 10px;
+    left: 33%;
+}
+.firstName p , .lastName p
+{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.lastName
+{
+    position: absolute;
+    top: 60px;
+    left: 37%;
+}
+
+.profession
+{
+    position: absolute;
+    top: 120px;
+    left: 42%;
+}
+.profession p
+{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
